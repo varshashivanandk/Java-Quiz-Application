@@ -1,0 +1,20 @@
+MCQ|Which keyword is used to define a constant in Java?|static|final|volatile|transient|b|EASY|Constants cannot be changed after initialization.
+MCQ|Which keyword prevents inheritance?|static|final|private|abstract|b|MEDIUM|Think: unchangeable.
+MCQ|Thread method to start execution?|run()|start()|execute()|init()|b|MEDIUM|Don't call run() directly.
+MCQ|Which collection is ordered and allows duplicates?|Set|Map|List|Queue|c|EASY|Think: array-like.
+MCQ|What does 'super' refer to?|Current class|Parent class|Interface|Static class|b|MEDIUM|Think: inheritance.
+MCQ|Which exception is checked?|NullPointerException|IOException|ArithmeticException|ArrayIndexOutOfBoundsException|b|HARD|Think: file operations.
+MCQ|Which keyword is used to implement an interface?|extends|implements|inherits|uses|b|EASY|Different from class inheritance.
+MCQ|What is the size of int in Java?|8 bits|16 bits|32 bits|64 bits|c|EASY|Same as most languages.
+MCQ|Which keyword is used to force garbage collection?|final|static|volatile|System.gc()|d|HARD|It's a method, not a keyword.
+MCQ|Which loop checks condition after executing block?|for|while|do-while|switch|c|MEDIUM|Think post-test loop.
+MCQ|Which exception occurs when dividing by zero in Java?|IOException|ArithmeticException|NullPointerException|ClassNotFoundException|b|MEDIUM|Basic math error.
+TF|Java supports multiple inheritance through interfaces.|a
+TF|Constructor can be declared with a return type.|b
+TF|Static methods can be overridden in Java.|b
+TF|A Java interface can contain default methods.|a
+MSQ|Which of these are Java primitive data types?|boolean|String|char|double|a,c,d|EASY|Only primitive types count.
+MSQ|Which keywords can be used with a method declaration?|static|volatile|synchronized|abstract|a,c,d|MEDIUM|One of them affects concurrency.
+MSQ|Which classes are part of the Java Collections Framework?|ArrayList|HashMap|StringBuilder|LinkedList|a,b,d|MEDIUM|Mutable list and map classes.
+MSQ|Which are valid Java access modifiers?|public|package|protected|private|a,c,d|HARD|One option is not a keyword.
+MSQ|Which of these are checked exceptions?|IOException|RuntimeException|FileNotFoundException|NullPointerException|a,c|HARD|Checked exceptions are subclasses of Exception, not RuntimeException.
